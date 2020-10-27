@@ -1437,6 +1437,32 @@ footer.white-wrapper .social-links li a {
         letter-spacing: 2px;
     }
 }
+@media(min-width:1023px) and (max-width:1025px) {
+    .fullheight, .fullheight .article-slide, .fullheight .article-slide .carousel-inner, .fullheight .article-slide .item, .fullheight .article-slide .item img {
+        height: auto!important;
+        min-height: 600px
+    }
+    .icon-tabs .fa-4x {
+          font-size: 46px;
+    }
+    .icon-tabs li .tabtitle {
+        font-size: 12px;
+        letter-spacing: 4px
+    }
+    .dark-wrapper .icon-tabs li {
+        border-right: none;
+    }
+    .form-control.col-md-4, .dark-wrapper.form-control.col-md-4 {
+        width: 100% !important;
+     }
+     #when .lead{
+        font-size:60px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}
+
 
 @media(max-width:460px) {
     .fullheight, .fullheight .article-slide, .fullheight .article-slide .carousel-inner, .fullheight .article-slide .item, .fullheight .article-slide .item img {
